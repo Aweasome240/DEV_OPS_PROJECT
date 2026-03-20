@@ -39,7 +39,7 @@ jobs:
             pip install -r requirements.txt
 
       - name: Run Tests
-        run: pytest tests/test_code.py
+        run: pytest Pytests/test_code.py
 
   run:
     runs-on: ubuntu-latest
